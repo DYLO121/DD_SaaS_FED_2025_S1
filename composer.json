@@ -1,0 +1,39 @@
+{
+  "name": "DD_SaaS_FED_2025_S1/",
+  "description": "Vanilla PHP MVC Framework Demo",
+  "type": "project",
+  "version": "0.1",
+  "time": "2025-03-12",
+  "keywords": [
+    "mvc",
+    "framework",
+    "vanilla",
+    "demo",
+    "mysql",
+    "mariadb"
+  ],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Dylan Draper",
+      "email": "dylandraper20@gmail.com",
+      "homepage": "https://DYLO121.github.io",
+      "role": "Developer"
+    },
+    {
+      "name": "Brad Traversy",
+      "email": "support@traversymedia.com",
+      "homepage": "https://www.traversymedia.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "Framework/",
+      "App\\": "App/"
+    }
+  }
+}
